@@ -1,7 +1,7 @@
 {
   "name": "hapi-elastic",
   "description": "Elastic Search Hapi Plugin",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "keywords": [
     "hapi",
     "plugin",
@@ -30,8 +30,7 @@
   "dependencies": {
     "boom": "^2.8.0",
     "elasticsearch": "^15.1.1",
-    "hoek": "^2.14.0",
-    "joi": "^6.6.1"
+    "hoek": "^2.14.0"
   },
   "scripts": {
     "test": "lab -m 5000 -t 100 -v -La code",
